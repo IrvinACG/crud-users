@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SpringBoot_CRUD_Users
+    
+  datasource:
+    url: jdbc:mysql://<host>:3306/<database>
+    username: <user>
+    password: <password>
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
